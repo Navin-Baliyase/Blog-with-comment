@@ -1,14 +1,10 @@
-<h1>Articles#show</h1>
-<p>Find me in app/views/articles/show.html.erb</p>
-
-<p>Article Title</p>
-<%=@article.title%>
-<br>
-<p>Article Description</p>
+<div class="wrapper-content">
+<h5>Article Title: <%=@article.title%> </h5>
+<h5>Article Description:</h5>
 <%=@article.body%>
-<br>
-
+<div class="button">
 <%= link_to "New Article", new_article_path%>
+</div>
 <br>
 
 
@@ -37,3 +33,4 @@
 <p>Commenter name: <%=comment.commenter%></p>
 <p>Comment: <%=comment.body%></p>
 <%end%>
+</div>

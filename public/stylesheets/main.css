@@ -1,0 +1,22 @@
+/*common styles for layout*/
+.wrapper-container {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+  padding-right: 10px; 
+  padding-left:  10px;
+}
+
+.button {
+    background-color: forestgreen;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+button:hover, button:active {
+    background-color: red;
+}
